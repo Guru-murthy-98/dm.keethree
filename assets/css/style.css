@@ -33680,3 +33680,10 @@ p.service-box_text {
     border-radius: 5px;
     border-top: 1px solid #eee;
 }
+
+
+.info-media_wrapp .feature-item_icon i.fa-solid::before {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
