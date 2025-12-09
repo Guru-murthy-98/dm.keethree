@@ -33368,6 +33368,11 @@ marquee.header-notice {
     background-image: url("../images/ocean-b.png");
 }
 
+.ocean-sec1{
+    /* background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%); */
+    background-image: url("../images/ocean-b1.png");
+}
+
 
 .custom-blue {
     background-color: #032f4e;
