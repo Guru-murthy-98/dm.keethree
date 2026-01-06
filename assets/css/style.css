@@ -18186,6 +18186,7 @@ span.select2-selection.select2-selection--single:focus {
 .why-sec {
     margin: 0 0px;
     /* border-radius: 0 0 50px 50px */
+    background-color: #001E38;
 }
 
 @media (max-width: 1399px) {
@@ -33359,23 +33360,26 @@ marquee.header-notice {
     /* background-image: url("../images/ocean-blue.jpg"); */
 }
 .cus-bg{
-    /* background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%); */
-    background-image: url("../images/ttq.png");
+    background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%);
+    /* background-image: url("../images/ttq.png"); */
 }
 
 .ocean-sec{
-    /* background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%); */
-    background-image: url("../images/ocean-b2.png");
+    background: linear-gradient(to left, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%);
+    /* background-image: url("../images/ocean-b2.png"); */
 }
 
 .ocean-sec1{
     /* background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%); */
-    background-image: url("../images/ocean-b1.png");
+    /* background-image: url("../images/ocean-b1.png"); */
+    background-color: #001E38;
 }
 
 .ocean-sec1s{
     /* background: linear-gradient(to right, #001E38 0%, #013A63 30%, #005F99 65%, #2E8BC0 100%); */
-    background-image: url("../images/ocean-bg.jpg");
+    /* background-image: url("../images/ocean-bg.jpg"); */
+    background-color: #001E38;
+
 }
 
 .ocean-sec1ss{
@@ -33712,4 +33716,7 @@ p.service-box_text {
     font-size: 24px;
     color: #000;
     font-weight: 600;
+}
+.p-relative{
+    position:  relative;
 }
