@@ -33720,3 +33720,28 @@ p.service-box_text {
 .p-relative{
     position:  relative;
 }
+
+
+
+
+.services-style-area .new-table table td {
+    font-size: 18px;
+    text-align: center;
+    color: #0071dc;
+}
+.services-style-area .new-table table i {
+    font-size: 22px;
+}
+.bx {
+    font-family: boxicons !important;
+    font-weight: 400;
+    vertical-align: middle;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
