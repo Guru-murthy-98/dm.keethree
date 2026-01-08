@@ -33755,6 +33755,6 @@ p.service-box_text {
     box-sizing: border-box;
 }
 
-.web-hdng{
+.lst-para-web, .web-hdng h2 {
     color:#fff;
 }
