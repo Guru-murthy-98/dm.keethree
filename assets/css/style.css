@@ -33754,3 +33754,7 @@ p.service-box_text {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+.web-hdng{
+    color:#fff;
+}
