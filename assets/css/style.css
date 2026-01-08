@@ -33748,3 +33748,9 @@ p.service-box_text {
 .bx-check:before {
     content: "\e9a4";
 }
+.bx-x:before {
+    content: "\ebe9";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
