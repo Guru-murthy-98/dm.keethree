@@ -33949,3 +33949,7 @@ ul.ecommerce-ul li+li{
     content: " ▸";
     float: right;
 }
+
+.li.menu-item-has-children .main-menu ul.sub-menu li a:before{
+    display:none;
+}
