@@ -33758,3 +33758,127 @@ p.service-box_text {
 .lst-para-web, .web-hdng h2 {
     color:#fff;
 }
+
+.page-main-title h2 {
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.list-unstyled li {
+    color: white;
+    font-size: 20px;
+}
+.list-unstyled li+li {
+    margin-top: 10px;
+}
+#domain2 .list-unstyled li+li {
+    margin-top: 20px;
+}
+#domain2 .list-unstyled li {
+    color: white;
+    font-size: 20px;
+}
+#domain3 .list-unstyled li+li {
+    margin-top: 20px;
+}
+.about-list li i.bx.bxs-check-circle {
+    padding-right: 10px;
+}
+#domain3 .list-unstyled li {
+    color: white;
+    font-size: 20px;
+}
+.sp-color {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+}
+.page-center-text{
+    color: white;
+    font-size: 20px;
+}
+.list-unstyled li .small{
+    padding-left: 25px;
+}
+.border-white .container{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 40px 0px;
+}
+.work-img-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.work-img-div div{
+    width: 100%;
+}
+.work-img-div div a img {
+        border: 3px solid white;
+}
+.work-img-div div a p{
+    font-size: 18px;
+    color: white;
+}
+.ecommerce-ul li{
+    list-style: none;
+}
+.single-pricing{
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(248, 248, 248, 0.747) 0px 4px 12px;
+    transition: all 0.3s ease;
+}
+.single-pricing:hover {
+    box-shadow: rgba(216, 216, 223, 0.767) 0px 7px 29px 0px;
+}
+.pricing-title h3 {
+    font-size: 22px;
+}
+.pricing-title h2 {
+    font-size: 28px;
+}
+ul.ecommerce-ul {
+    padding-left: 0;
+}
+ul.ecommerce-ul li{
+    color: #000000;
+    font-size: 18px;
+}
+.mt-3{
+    margin-top: 20px;
+}
+ul.ecommerce-ul li+li{
+    margin-top: 10px;
+}
+@media (max-width: 1199px) {
+   .web-service .service-box.style2 {
+    min-height: 280px;
+}
+}
+@media (max-width: 992px){
+    .page-img-main {
+        text-align: center;
+    }
+    .work-img-div{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media (max-width: 767px){
+    .page-img-main {
+        text-align: center;
+    }
+    .work-img-div{
+    grid-template-columns: 1fr;
+}
+   .web-service .service-box.style2 {
+    min-height: auto;
+}
+.page-main-title h2 {
+    font-size: 22px;
+}
+.border-white{
+    padding: 0 10px;
+}
+}
