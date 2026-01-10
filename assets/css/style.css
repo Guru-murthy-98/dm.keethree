@@ -33950,6 +33950,6 @@ ul.ecommerce-ul li+li{
     float: right;
 }
 
-.li.menu-item-has-children .main-menu ul.sub-menu li a:before{
-    display:none !important;
+nav.main-menu.d-none.d-lg-inline-block li.menu-item-has-children ul.sub-menu li.menu-item-has-children a:before {
+    display: none;
 }
