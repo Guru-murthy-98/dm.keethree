@@ -33951,5 +33951,5 @@ ul.ecommerce-ul li+li{
 }
 
 .li.menu-item-has-children .main-menu ul.sub-menu li a:before{
-    display:none;
+    display:none !important;
 }
