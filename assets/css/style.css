@@ -33882,3 +33882,120 @@ ul.ecommerce-ul li+li{
     padding: 0 10px;
 }
 }
+
+
+/* ================================
+   MAIN MENU BASE
+================================ */
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    position: relative;
+}
+
+/* Menu links */
+.main-menu ul li a {
+    color: #ffffff;
+    padding: 12px 18px;
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hover color */
+.main-menu ul li a:hover {
+    color: #00c2ff;
+}
+
+/* ================================
+   FIRST LEVEL SUBMENU
+================================ */
+.main-menu ul li .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    background-color: #032f4e;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 0.3s ease;
+    z-index: 999;
+    border-radius: 4px;
+}
+
+/* Show submenu on hover */
+.main-menu ul li:hover > .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Submenu links */
+.main-menu ul li .sub-menu li a {
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+/* Hover background */
+.main-menu ul li .sub-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ================================
+   SECOND LEVEL SUBMENU (Web Service)
+================================ */
+.main-menu ul li .sub-menu li .sub-menu {
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(15px);
+}
+
+/* Show second level submenu */
+.main-menu ul li .sub-menu li:hover > .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* ================================
+   DROPDOWN ARROWS
+================================ */
+.menu-item-has-children > a::after {
+    content: "▾";
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+.menu-item-has-children .menu-item-has-children > a::after {
+    content: "▸";
+    float: right;
+}
+
+/* ================================
+   MOBILE MENU FIX
+================================ */
+@media (max-width: 991px) {
+    .main-menu ul li .sub-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+    }
+
+    .main-menu ul li.active > .sub-menu {
+        display: block;
+    }
+
+    .menu-item-has-children > a::after {
+        float: right;
+    }
+}
