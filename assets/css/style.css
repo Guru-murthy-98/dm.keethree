@@ -33893,6 +33893,7 @@ ul.ecommerce-ul li+li{
     background-color: #032f4e;
     min-width: 240px;
     padding: 0;
+    border-radius: 0px;
 }
 
 /* Submenu links */
