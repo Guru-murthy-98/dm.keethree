@@ -33894,6 +33894,7 @@ ul.ecommerce-ul li+li{
     min-width: 240px;
     padding: 0;
     border-radius: 0px;
+    border-bottom: 0;
 }
 
 /* Submenu links */
