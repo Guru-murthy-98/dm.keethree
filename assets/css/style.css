@@ -33902,6 +33902,9 @@ ul.ecommerce-ul li+li{
     display: block;
     font-size: 14px;
 }
+.main-menu ul li.menu-item-has-children {
+    padding: 0;
+}
 
 /* Hover effect */
 .main-menu ul li.menu-item-has-children > .sub-menu li a:hover {
